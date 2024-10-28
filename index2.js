@@ -8,8 +8,6 @@ let second = data.getSeconds();
  
     let liczba=0;
     const interval = setInterval(()=>{
-      second++;
-   
     console.log(hours+":"+min+":"+second);
         if(liczba===5)
         {
@@ -17,3 +15,4 @@ let second = data.getSeconds();
         }
         liczba++;
     },1000);
+    //
