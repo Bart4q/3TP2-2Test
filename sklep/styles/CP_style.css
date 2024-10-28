@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+#h_logo {
+    height: 50px;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+}
+form {
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid indigo;
+    border-radius: 6px;
+    outline: none;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    padding: 16px 24px;
+    background-color: indigo;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100px;
+
+}
+header a {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(131, 131, 131);
+}

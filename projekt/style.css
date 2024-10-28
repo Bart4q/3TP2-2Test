@@ -1,0 +1,116 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    text-align: center;
+    animation: infinite 2s coolAnimation;
+    transition: all .5s ease-in-out;
+    background: linear-gradient(90deg, #6203fc, #3e1fec, #ff00bf);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p
+{
+    text-align: center;
+}
+
+.link
+{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+
+@keyframes coolAnimation {
+    0% { background-position-x: 0%; }
+    50% { background-position-x: 100%; }
+    100% { background-position-x: 0%; }
+}
+
+.container
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#title
+{
+    margin-top: 100px;
+}
+
+#paragraphs
+{
+    margin-top: 50px;
+}
+
+header
+{
+    width: 100%;
+    background: linear-gradient(90deg, #6203fc, #3e1fec, #ff00bf);
+    height: 50px;
+}
+
+nav
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li
+{
+    margin: 10px 30px;
+}
+
+img
+{
+    width: 100%;
+}
+
+#paragraphs
+{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #111111;
+}

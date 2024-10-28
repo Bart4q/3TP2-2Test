@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+#h_logo {
+    height: 80px;
+}
+
+header div{
+    display: flex;
+    gap: 15px;
+}
+header div a {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(131, 131, 131);
+}
+header div a:hover{
+    transition: 1s;
+    color: black
+}
+section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#product {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px rgb(131, 131, 131);
+}
+#product img {
+    height: 400px;
+    width:fit-content;
+}
+#opis {
+    font-size: 20px;
+}
+.dodaj {
+    background-color: indigo;
+    border-radius: 7px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dodaj:hover{
+    background-color: blueviolet ;
+}
+form{
+    margin: 40px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    width: 50px;
+    text-align: right;
+}
+.dodany{
+    background-color: rgba(216, 243, 205, 0.987);
+    border: 2px solid green;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

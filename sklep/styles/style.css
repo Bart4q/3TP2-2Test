@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#h_logo {
+    height: 50px;
+}
+#szukaj {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+    
+}
+input {
+    outline: none;
+}
+#szukaj input[type='submit']{
+    background-color: rgb(225, 193, 255);
+    height: 100%;
+    border-radius: 20px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+#szukaj input[type='submit']:hover{
+    background-color: rgb(201, 166, 234);
+    transition: 0.5s;
+}
+#szukaj input[type='text']{
+    height: 100%;
+    width: 70%;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+header div{
+    display: flex;
+    gap: 15px;
+}
+header a {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(131, 131, 131);
+}
+header a:hover{
+    transition: 1s;
+    color: black
+}
+
+
+#menu {
+    height: 70px;
+    background-color: rgb(209, 159, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#menu a:hover{
+    color: rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
+    transition: 1s;
+}
+#products{
+    display: flex;
+}
+main{
+    display: flex;
+}
