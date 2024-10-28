@@ -1,12 +1,10 @@
 let liczba = 0;
 
-let cos = function() {
-    liczba=liczba+1;
-    console.log(liczba)
-}
-let co1 = function(){
-    clearInterval(co3)
-}
-let co3 = 
-setInterval(cos,1000)
-setTimeout(co3)
+const interval = setInterval(()=>{
+    console.log(liczba);
+    if(liczba===5)
+    {
+        clearInterval(interval);
+    }
+    liczba++;
+},1000);
